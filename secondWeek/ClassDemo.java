@@ -50,6 +50,12 @@ public class ClassDemo {
 		for (Animal animal : animals) {
 			animal.bite();
 		}
+		
+		Cat cat1 = new Cat("ergou");
+		Cat cat2 = new Cat("ergou");
+		
+		System.out.println(cat1 == cat2);
+		System.out.println(cat1.equals(cat2));
 
 	}
 }
@@ -70,6 +76,12 @@ class Cat extends Animal {
 
 	public void bite() {
 		System.out.println(this.name + "喵"); // 0
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Cat cat = (Cat) obj;
+		return cat.name.equals(this.name);
 	}
 }
 
