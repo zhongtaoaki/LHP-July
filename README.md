@@ -1,11 +1,21 @@
 # LHP-July
 
 # title level1
+## mahiro
+## title level3
 ## 我叫Zhao Yufei
 ## 简单自我介绍
 
 
 
+1. My name is mahiro.
+1. And it is my nickname.
+1. My true name is Yang.
+1. this is 2
+1. this is 1
+1. this is 2
+1. this is 1
+1. this is 2
 
 - 大龄程序员
 
@@ -18,11 +28,10 @@ System.out
 
 ![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")
 
-<<<<<<< HEAD
+
 
 自我介绍
 ```System.out.println("liliy");```
-=======
 ##YUTINGWEI 提交
 #### 我在学习java
 1 java
@@ -32,4 +41,3 @@ System.out
 ``
 System.out.println("1")
 ``
->>>>>>> branch 'main' of https://github.com/zhongtaoaki/LHP-July.git
