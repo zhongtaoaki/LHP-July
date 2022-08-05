@@ -8,10 +8,9 @@ public class SequentialStrategy implements Strategy {
     public Hand nextHand() {
 
         Hand[] hands = { Hand.ROCK, Hand.SCISSORS, Hand.PAPER };
-
+        count++;
         int index = count % 3;
         return hands[index];
     }
-
 
 }
